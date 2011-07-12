@@ -1,0 +1,4 @@
+Add this file to config/initializers folder of your projects
+
+rspec/shoulda currently cannot handle association testing such as belongs_to, has_many, has_one with MongoMapper. This patch handles testing for belongs_to associations. More code will be added to test other associations. 
+
